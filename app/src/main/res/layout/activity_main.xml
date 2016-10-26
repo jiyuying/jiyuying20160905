@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.jiyuying20160905.MainActivity">
+
+   <com.example.lenovo.jiyuying20160905.MyView
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+android:id="@+id/my"
+       ></com.example.lenovo.jiyuying20160905.MyView>
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@id/my"
+       android:id="@+id/lv"
+       ></ListView>
+</RelativeLayout>
